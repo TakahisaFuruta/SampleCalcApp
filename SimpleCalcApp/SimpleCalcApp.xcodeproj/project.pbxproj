@@ -14,6 +14,8 @@
 		0FF895A01F886CAB0088BA50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF8959E1F886CAB0088BA50 /* LaunchScreen.storyboard */; };
 		0FF895AB1F886CAB0088BA50 /* SimpleCalcAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF895AA1F886CAB0088BA50 /* SimpleCalcAppTests.swift */; };
 		0FF895B61F886CAB0088BA50 /* SimpleCalcAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF895B51F886CAB0088BA50 /* SimpleCalcAppUITests.swift */; };
+		0FF895C41F88ABB40088BA50 /* PercentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF895C31F88ABB40088BA50 /* PercentViewController.swift */; };
+		0FF895C61F88AEA70088BA50 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF895C51F88AEA70088BA50 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0FF895B11F886CAB0088BA50 /* SimpleCalcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF895B51F886CAB0088BA50 /* SimpleCalcAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcAppUITests.swift; sourceTree = "<group>"; };
 		0FF895B71F886CAB0088BA50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF895C31F88ABB40088BA50 /* PercentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentViewController.swift; sourceTree = "<group>"; };
+		0FF895C51F88AEA70088BA50 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				0FF895951F886CAB0088BA50 /* AppDelegate.swift */,
 				0FF895971F886CAB0088BA50 /* ViewController.swift */,
+				0FF895C31F88ABB40088BA50 /* PercentViewController.swift */,
 				0FF895991F886CAB0088BA50 /* Main.storyboard */,
+				0FF895C51F88AEA70088BA50 /* ResultViewController.swift */,
 				0FF8959C1F886CAB0088BA50 /* Assets.xcassets */,
 				0FF8959E1F886CAB0088BA50 /* LaunchScreen.storyboard */,
 				0FF895A11F886CAB0088BA50 /* Info.plist */,
@@ -261,6 +267,8 @@
 			files = (
 				0FF895981F886CAB0088BA50 /* ViewController.swift in Sources */,
 				0FF895961F886CAB0088BA50 /* AppDelegate.swift in Sources */,
+				0FF895C41F88ABB40088BA50 /* PercentViewController.swift in Sources */,
+				0FF895C61F88AEA70088BA50 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
